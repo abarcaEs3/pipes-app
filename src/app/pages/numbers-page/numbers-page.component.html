@@ -1,1 +1,27 @@
+<section class="mx-6 mb-6 lg:mx-10">
+  <h1 class="text-2xl font-bold text-base-content">Pipes Númericos</h1>
+  <h3 class="mt-1 text-lg font-light text-base-content/60">
+    Pipes incluidos en Angular
+  </h3>
+</section>
+
+<div class="stats stats-vertical w-full shadow-lg lg:stats-horizontal">
+  <div class="stat place-items-center">
+    <div class="stat-title font-semibold text-primary">Number Pipe</div>
+    <div class="stat-value mt-1">{{ totalSells() | number }}</div>
+    <div class="stat-desc mt-1">{{ totalSells() }}</div>
+  </div>
+
+  <div class="stat place-items-center">
+    <div class="stat-title font-semibold text-primary">Percent Pipe</div>
+    <div class="stat-value mt-1">{{ percent() | percent }}</div>
+    <div class="stat-desc mt-1">{{ percent() }}</div>
+  </div>
+
+  <div class="stat place-items-center">
+    <div class="stat-title font-semibold text-primary">Currency Pipe</div>
+    <div class="stat-value mt-1">{{ totalSells() | currency : "₡ " }}</div>
+    <div class="stat-desc mt-1">{{ totalSells() }}</div>
+  </div>
+</div>
 
