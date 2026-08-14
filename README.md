@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # PipesApp
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.1.0.
@@ -57,3 +58,7 @@ Angular CLI does not come with an end-to-end testing framework by default. You c
 ## Additional Resources
 
 For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+=======
+# pipes-app
+Proyecto práctico de Angular para aprender y aplicar Pipes, internacionalización y configuración regional de la aplicación.
+>>>>>>> 121130e5b15e9387f7117b176415171ef8f044a7
